@@ -8,19 +8,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: just a simple ls command
-        run: 
-        
-        
-        curl https://www.digitalocean.com/robots.txt --output robots.txt
-        
-        
-        ls -l
-        
-        
-        cat robots.txt
-        
-        
-        ls -l
+        run: curl https://www.digitalocean.com/robots.txt --output robots.txt
+              ls -l
+              cat robots.txt
+              ls -l
       
       
       
