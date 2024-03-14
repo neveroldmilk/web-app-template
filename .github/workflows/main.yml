@@ -1,0 +1,27 @@
+name: My First Workflow
+on: push
+jobs:
+  myjob:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: just a simple ls command
+        run: 
+        
+        step1
+        curl https://www.digitalocean.com/robots.txt --output robots.txt
+        
+        step2
+        ls -l
+        
+        step3
+        cat robots.txt
+        
+        step2
+        ls -l
+      
+      
+      
+      
